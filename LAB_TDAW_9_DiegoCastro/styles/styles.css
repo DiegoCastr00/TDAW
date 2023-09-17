@@ -1,0 +1,266 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #3e9cdb;
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1em;
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+}
+
+header a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+header>a:nth-child(1) {
+    font-size: 1.4em;
+    padding: 0 3em;
+    font-weight: 600;
+}
+
+header ul {
+    list-style-type: none;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    display: flex;
+    font-size: 1em;
+    font-weight: 300;
+    gap: 2em;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.izq {
+    background-color: white;
+    max-width: 25%;
+    font-size: 1rem;
+    padding-top: 0.2em;
+    margin-left: 2%;
+}
+
+.izq__info {
+    background-color: #e9ddc3;
+    padding: 1em;
+    color: grey;
+}
+
+.izq__nabvar {
+    background-color: #f1f1f0;
+    padding: 1em;
+    margin: 2em 0;
+
+}
+
+.izq__nabvar ul {
+    list-style-type: none;
+    font-size: 1em;
+    font-weight: 500;
+    vertical-align: baseline;
+    line-height: 1.5;
+}
+
+.izq__Menssage {
+    background-color: #f1f1f0;
+    padding: 1em;
+}
+
+.izq__men-titulo {
+    background-color: #b7cfe7;
+    width: 100%;
+    height: 3%;
+    font-size: 1em;
+}
+
+.izq__men-titulo h3 {
+    padding: 1em;
+}
+
+.izq__men-contenido {
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.izq__men-contenido ul {
+    list-style-type: none;
+    font-size: 1em;
+    font-weight: 500;
+    vertical-align: baseline;
+}
+
+.izq__men-contenido ul img {
+    float: left;
+    padding-right: 1em;
+    padding-top: 2em;
+}
+
+.izq__men-contenido ul p {
+    padding-left: 20%;
+    padding-top: 2em;
+}
+
+
+.mid {
+    background-color: white;
+    margin: 0 2em;
+    max-width: 50%;
+}
+
+.mid__opciones {
+    background-color: #fcfaf8;
+    margin: 1em 0;
+    padding: 0.5em 0;
+    font-size: 1.1rem;
+}
+
+.mid span {
+    font-size: 2em;
+    font-weight: 600;
+    padding-top: 5em;
+    margin-top: 5em;
+}
+
+.mid__info {
+    width: 100%;
+    float: left;
+    padding: 1em 0;
+    font-size: 1.1em;
+}
+
+.mid__info-left {
+    float: left;
+}
+
+.mid__info_right {
+    float: right;
+}
+
+hr {
+    border: 1.5px solid #d3d3cd;
+    border-radius: 300px;
+    height: 0px;
+    text-align: center;
+}
+
+th {
+    font-size: 1.2em;
+    text-align: left;
+}
+
+td {
+    font-size: 1.2em;
+}
+.mid__contenido-boton{
+    background: #3e9cdb;
+    display: block;
+    width: 10em;
+    height: 1.4em;
+    text-align: center;
+    color: white;
+    
+}
+.mid__contenido-boton a{
+    color: white;
+    text-decoration: none;
+}
+
+.der {
+    max-width: 25%;
+    margin-right: 2%;
+}
+
+.der__cambios {
+    background-color: #f1f1f0;
+    padding: 1em;
+    margin: 0.2em 0 2em 0;
+}
+
+.der__cambios-titulo{
+    background-color: #b7cfe7;
+    width: 100%;
+    height: 3%;
+    font-size: 1em;
+}
+
+.der__cambios-titulo h3 {
+    padding: 1em; 
+}
+
+.der__cambios-contenido {
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.der__cambios-contenido ul {
+    list-style-type: none;
+    font-size: 1em;
+    font-weight: 500;
+}
+.der__cambios-contenido span{
+    float:inline-start;
+    margin: 0 1em;
+    font-size: 2em;
+    clear:left;
+    color: grey;
+}
+.der__cambios-contenido ul p {
+    padding: 1em;
+}
+
+.der__vendidos {
+    background-color: #f1f1f0;
+    padding: 1em;
+}
+
+.der__vendidos-titulo {
+    background-color: #b7cfe7;
+    width: 100%;
+    height: 3%;
+    font-size: 1em;
+}
+
+.der__vendidos-titulo h3 {
+    padding: 1em;
+}
+
+.der__vendidos-contenido {
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+
+}
+.der__vendidos-contenido ul img {
+    float: left;
+    padding-top: 1em;
+    clear:left;
+}
+.der__vendidos-contenido ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+ .der__vendidos-contenido li {
+    float: left;
+    clear:left;
+    
+ }
+ .der__vendidos-contenido li p {
+    display: block;
+    padding: 2em 1em 1em 4em;
+    margin: 0;
+ }

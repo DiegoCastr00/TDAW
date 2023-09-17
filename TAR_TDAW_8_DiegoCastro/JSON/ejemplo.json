@@ -1,0 +1,39 @@
+[
+    {
+      "url": "images/img1.jpg",
+      "autor": "Michell Ro.",
+      "descripcion": "Título de la imagen 1",
+      "profile": "images/user1.jpg",
+      "likes": 260,
+      "share": 122,
+      "comments": 211
+    },
+    {
+      "url": "images/img2.jpg",
+      "autor": "Angel B.",
+      "descripcion": "Título de la imagen 2",
+      "profile": "images/user2.jpg",
+      "likes": 201,
+      "share": 122,
+      "comments": 321
+    },
+    {
+      "url": "images/img3.jpg",
+      "autor": "Cecilia D.",
+      "descripcion": "Título de la imagen 3",
+      "profile": "images/user3.jpg",
+      "likes": 50,
+      "share": 121,
+      "comments": 221
+    },
+    {
+      "url": "images/img4.jpg",
+      "autor": "Dante M.",
+      "descripcion": "Título de la imagen 4",
+      "profile": "images/user4.jpg",
+      "likes": 123,
+      "share": 623,
+      "comments": 234
+    }
+]
+

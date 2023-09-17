@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+a:link, a:visited,  a:hover, a:active{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header{
+  background-color: black;
+  height: 5vh;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-areas: 
+  "as title header hedaer hedaer  camara chat user";
+  align-items: center;
+  justify-items: center;
+}
+header i{ 
+  font-size: 1.5em;
+  grid-area: as;
+}
+header span{
+  font-size: 1em;
+  grid-area: title;
+}
+.chat{
+  grid-area: chat;
+  color: #ffffff;
+}
+header .nav_user{
+  grid-area: user;
+}
+.nav_user img{
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+}
+#container{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 95vh;
+  scrollbar-width: none;
+  color: #ffffff;
+}
+.container__img span {
+  position: absolute;
+}
+
+.container__img p {
+  position: absolute;
+}
+.container__img {
+  display: grid;
+  scroll-snap-align: center;
+  position: relative;
+  height: 95vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  grid-template-columns:270px 1fr;
+  grid-template-rows: repeat(7, 1fr);
+  grid-column-gap: 10px;
+
+  grid-template-areas: 
+  "header header"
+  "header header"
+  "header header"
+  "as navbar"
+  "as navbar"
+  "user navbar"
+  "description navbar";
+
+
+}
+
+.container__autor{
+  grid-area: user;
+  display: flex;
+  align-items: end;
+  margin-left: 5px;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.container__description{
+  grid-area: description;
+  padding:0 30px;
+  font-size: .9em;
+  font-style: italic;
+  width: 270px;
+  word-wrap: break-word;
+}
+.container__description p{
+  max-width: 250px;
+}
+.container__navbar{
+  color: #ffffff;
+
+  display: grid;
+  grid-area: navbar;
+  font-size: 1.2em;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: 
+  "photo"
+  "likes"
+  "share"
+  "chat";
+  margin-right: 20px;
+  place-content: end;
+}
+
+.container__navbar span{
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.container__navbar p{
+  padding-top: 50px;
+  font-size: 0.8em;
+}
+
+.container__navbar-photouser{
+  display: flex;
+  grid-area: photo;
+  align-items: center;
+  
+}
+.container__navbar-photouser img{
+  border-radius: 50%;
+  width: 2.7em;
+  height: 2.7em;
+  width: auto;
+}
+
+.container__navbar-likes{
+  display: flex;
+  grid-area: likes;
+  justify-content: center;
+}
+
+
+.container__navbar-share{
+  grid-area: share;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.container__navbar-chat{
+  grid-area: chat;
+  display: flex;
+  justify-content: center;
+}

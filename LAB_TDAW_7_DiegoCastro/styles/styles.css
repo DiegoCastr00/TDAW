@@ -1,0 +1,61 @@
+body{
+    background: url("../images/art-background4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: white;
+    width: 19rem;
+    height: 5rem;
+    margin: 0em 3em 6em 6em;
+    align-items: center;
+    padding: 2%;
+}
+header h1{
+    font-family: 'Six Caps', sans-serif;
+    font-size: 3rem;
+}
+header h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+article{
+    width: 34.5rem;
+    height: 100%;
+    margin: 7em 3em 6em 6em;
+    align-items: center;
+    background: rgb(255, 255, 255, .5);
+}
+article h2{
+    background: rgb(255, 255, 255, .7);
+    padding: 2%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.9rem;
+}
+
+article p{
+    padding: 2%;
+}
+article>p:nth-child(2){
+  font-family: 'PT Serif', serif;
+  background: rgb(255, 255, 255, 0);
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+article>p:nth-child(3){
+  font-family: 'Cormorant Garamond', serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1.9rem;
+  padding: 2%;
+  width: 50vh;
+  margin: 20px;
+}
+
+footer{
+    background: rgb(255, 255, 255, .9);
+    padding: 5%;
+}

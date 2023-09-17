@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Detalles de foto</legend>
+            <table class="tabla">
+                <tr class="tabla__titulo">
+                    <td colspan="2">
+                        <p>Titulo <br><textarea cols="100" rows="1"> </textarea></p>
+                    </td>
+                </tr>
+                <tr class="tabla__Descripcion">
+                    <td colspan="2">
+                        <p>Descripción <br><textarea cols="100" rows="6"> </textarea></p>
+                    </td>
+                </tr>
+                <tr class="tabla__Continente--Copy">
+                    <td> Contienente <br>
+                        <select name="Contienente">
+                            <option value="Escoger continente">Escoger continente</option>
+                            <option value="Africa">Africa</option>
+                            <option value="Europa">Europa</option>
+                            <option value="Norte America">Norte America</option>
+                            <option value="Sur America">Sur America</option>
+                        </select>
+                    </td>
+                    <td>
+                        Copyright? <br>
+                        <input type="radio" name="Copyright" value="Todos"> Todos los derechos reservados <br>
+                        <input type="radio" name="Copyright" value="Creative Commons"> Creative Commons
+                    </td>
+                </tr>
+                <tr class="tabla__Pais--Licencia">
+                    <td> Pais <br>
+                        <select name="Pais">
+                            <option value="Pais">Pais</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Mexico">Mexico</option>
+                            <option value="Estados Unidos">Estados Unidos</option>
+                        </select>
+                    </td>
+                    <td rowspan="2">Licencias Creative Commons <br>
+
+                        <input type="checkbox" name="Atribucion" id="Atribucion"> Atribucion <br>
+                        <input type="checkbox" name="No comercial" id="No comercial"> No comercial <br>
+                        <input type="checkbox" name="trabajos derirativos" id="trabajos derirativos"> No hay trabajos
+                        derivativos <br>
+                        <input type="checkbox" name="Compartir" id="Compartir"> Compartir por igual
+                    </td>
+                </tr>
+                <tr class="tabla__Ciudad">
+                    <td>
+                        <label>Ciudad
+                            <br><input list="Ciudad" name="Ciudad " /></label>
+                        <datalist id="Ciudad">
+                            <option value="Calgary">
+                            <option value="Montreal">
+                            <option value="Toronto">
+                            <option value="Vancouver">
+                            <option value="Tlaxcala">
+                        </datalist>
+                    </td>
+                </tr>
+                <tr class="tabla__Licencia--Software">
+                    <td>
+                        Acepto la licencia de software
+                        <input type="checkbox" name="licencia" id="licencia">
+
+                    </td>
+                </tr>
+                <tr class="tabla__Cali--Fecha">
+                    <td>
+                        <p>
+                            Claifica esta foto: <br>
+                            <input type="number" min="0" max="10">
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Fecha de toma: <br>
+                            <input type="date" name="fecha" id="fecha">
+                        </p>
+                    </td>
+                </tr>
+                <tr class="tabla__Color--Hora">
+                    <td>
+
+                        Coleecion de color: <br>
+                        <input type="color">
+
+                    </td>
+                    <td>
+                        Hora de toma <br>
+                        <input type="time" name="fecha" id="fecha">
+                    </td>
+                </tr>
+                <tr class="tabla__Enviar--Limpiar">
+                    <td>
+                        <p>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="limpiar">
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>

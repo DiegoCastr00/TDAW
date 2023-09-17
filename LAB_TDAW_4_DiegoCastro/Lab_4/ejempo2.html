@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+            <p>
+                Elija una fecha <input type="date" name="fecha" id="fecha">
+            </p>
+            <p>
+                Elija un archivo: <input type="file" name="archivo" id="">
+            </p>
+            <p>
+                <input type="radio" name="procesador" value="AMD"> AMD
+                <input type="radio" name="procesador" value="Inteli5">Intel i5
+                <input type="radio" name="procesador" value="Inteli7"> Intel i7
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+            <p>
+                <input type="radio" name="materia" value="Matematicas"> Matematicas
+                <input type="radio" name="materia" value="historia"> Historia
+                <input type="radio" name="materia" value="geografia"> Geografia
+                <input type="radio" name="materia" value="lengua"> Lengua
+            </p>
+            <p>
+                Nombre: <input type="text" name="nombre" id="nombre" maxlength="50" required>
+            </p>
+            <p>
+                Apellidos <input type="text" name="apellidos" id="apellidos" maxlength="50" required>
+            </p>
+            <p>
+            <p>
+                Direccion <input type="text" name="apellidos" id="apellidos" required>
+            </p>
+
+            <p>
+                elija un color <input type="color">
+            </p>
+            <textarea cols="59" rows="6"> Utilice este cuadro para escribir </textarea>
+            <p>
+                Elija una fecha: <input type="date" name="fecha" id="fecha">
+            </p>
+            <p>
+                <select name="idioma">
+                    <option value="Ingles">Ingles</option>
+                    <option value="Aleman">Aleman</option>
+                    <option value="Frances">Frances</option>
+                </select>
+            </p>
+            <p>
+                elija una hora: <input type="time">
+            </p>
+            <p>
+                <input type="radio" name="sexo" value="H"> Hombre
+                <input type="radio" name="sexo" value="M"> Mujer
+            </p>
+            <p>
+                <input type="submit" value="enviar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+
+</html>
